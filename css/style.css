@@ -1,0 +1,262 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    
+}
+
+.nav-menu{
+
+    display: grid; 
+    grid-template-columns: 2fr 1fr 2fr; 
+    grid-gap: 20px; 
+    width: 100%;
+    height: 65px;
+    background-color: rgb(214, 215, 218);
+}
+.menus{
+    margin-top: 20px;
+}
+
+.menu-lista li{
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.user{
+    padding-top: 10px;
+}
+
+.user img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user img:hover{
+   cursor:pointer;
+}
+
+.new-publi{
+    height: auto;
+    width: 50%;
+    border: 1px solid #dadada;
+    margin: 50px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.make-publi{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    
+}
+
+.post-actions{
+    margin-top: 2px;
+    margin-left: 108px;
+}
+
+.post-actions button{
+    
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+    
+}
+
+.post-actions button:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+}
+.post-text{
+    border-radius: 5px;
+    border: 1px solid #222222;
+}
+  
+
+
+
+.publicacoes{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.publi{
+    height: auto;
+    width: 50%;
+    border: 1px solid #dadada;
+    margin: 50px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.publi:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+.post{
+    display: grid;
+    grid-template-columns: 1fr 8fr; 
+}
+.votes{
+    margin-top: 150px;
+
+}
+.votes-count{
+    margin-left: 30%;
+}
+.arrow{
+    margin-left: 40%; 
+}
+.arrow:hover{
+    color: red;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.cab-post{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    padding-left: 10px;
+}
+.profile-post img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.info{
+    margin-left: 10px;
+}
+
+.post-time{
+    color: rgba(99, 99, 98, 0.7);
+}
+.post-body{
+    align-items: center;
+    margin-right: 10px;
+}
+.post-body img{
+    width: 100%;
+    margin: auto;
+}
+.post-footer{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+
+}
+.comments{
+    align-items: center;
+    font-size: small;
+}
+.comments i:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.comments p{
+    color: rgba(99, 99, 98, 0.7);
+}
+
+
+.info-user {
+    position: absolute;
+    background: rgb(214, 215, 218); 
+    padding-top: 5px;
+    width: 260px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+.info-head{
+    border-bottom: 1px solid rgb(166, 162, 162);
+}
+  
+.info-user .prof-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid black;
+  
+}
+.profile-post img{
+    border: 1px solid black;
+}
+
+.make-publi{
+    margin-top: 5px;
+}
+
+.curso{
+    font-size: small;
+    margin-bottom: 5px;
+}
+.cidade{
+    color: rgba(99, 99, 98, 0.7);
+}
+
+.options{
+    margin-top: 10px;
+}
+.options li{
+    margin-top: 10px;
+}
+
+.options li:hover{
+    background-color: rgb(131, 130, 128);
+}
+
+
+footer {
+    display: flex;
+    height: 100%;
+    background-color: rgb(214, 215, 218);
+
+
+  }
+footer .menus{
+    margin: 60px 0 0 350px;
+}
+footer img {
+    height: 100px;
+    width: 100px;
+}
